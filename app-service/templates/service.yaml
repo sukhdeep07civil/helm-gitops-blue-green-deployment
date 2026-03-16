@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     app: app-service
+    version: {{ .Values.activeColor  }}
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}

@@ -11,7 +11,7 @@ spec:
     path: app-service
   
   destination:
-    server: https://kubernetes.io.default.svc
+    server: https://kubernetes.default.svc
     namespace: default
   
   syncPolicy:
